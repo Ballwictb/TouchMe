@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-image: url(../img/posiblevs.gif);
+}
+
+button {
+    cursor: pointer;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    font-size: larger;
+    background-color: azure;
+}
+
+.container {
+    width: 600px;
+    height: 600px;
+    background-image: url(../img/landscape.jpg);
+    background-size: cover;
+    margin: auto;
+    border: 5px solid #5a79ba;
+    margin-top: 20px;
+
+}
+
+#jugador {
+    position: absolute;
+    background-image: url(../img/avion-de-papel.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    border-radius: 500px;
+    transition: 0.5s;
+}
+
+.pointer {
+    box-shadow: 5px 5px 3px #5a79ba;
+    border-radius: 10px;
+    position: relative;
+    background: white;
+    height: 40px;
+    margin-top: 50px;
+    width: 400px;
+    margin: auto;
+    text-align: center;
+}
+
+#puntos {
+    color: black;
+    text-align: center;
+    font-size: larger;
+}
+
+#necesarios {
+    text-align: center;
+}
+
+#tiempo {
+    text-align: center;
+    font-size: larger;
+}
